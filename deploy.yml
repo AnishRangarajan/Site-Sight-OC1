@@ -1,0 +1,3 @@
+      - run: npm run build
+        env:
+          VITE_MAPBOX_TOKEN: ${{ secrets.VITE_MAPBOX_TOKEN }}
