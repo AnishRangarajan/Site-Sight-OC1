@@ -1,0 +1,20 @@
+Site Sight OC
+Site Sight OC is an early research tool for exploring California Surplus Land Act notices in Orange County. It combines notice records with parcel matches, reported zoning, acreage, neighborhood context, and preliminary hazard screening so housing teams can review potential sites and identify questions for follow-up.
+Features
+- Search and filter notices by address, city, status, acreage, zoning, and screening data.
+- View matched sites on an interactive map. Individual marker colors indicate parcel acreage; cluster colors indicate the number of sites.
+- Review notice details, source evidence, and data gaps.
+- Save up to five sites to a browser-based shortlist and compare candidates.
+- Export site information and print call sheets when running the full app.
+Data Sources
+- California HCD Surplus Land Act notices
+- SCAG parcel and zoning data
+- U.S. Census TIGERweb 2020 tracts
+- U.S. Census LEHD LODES8 California 2023 workplace data
+- SCAG regional flood zones
+- CAL FIRE 2025 recommended Local Responsibility Area zones
+The cached snapshot was checked November 7, 2026. Implementation details and source notes are in DATA-SOURCES.md.docx and docs/.
+Assumptions and Limitations
+HCD notices are agency-reported and do not establish current availability. Parcel geometry appears only when a unique APN match is found. Zoning is a regional-source proxy; housing density is measured at the Census tract level; nearby jobs are straight-line estimates. Flood data is historical, and local adoption of recommended fire zones has not been verified.
+
+Map colors are visual groupings, not site suitability or housing-capacity ratings. A hazard flag calls for further review; no flag does not mean a site is clear or safe. Site Sight OC is preliminary screening, not a legal, environmental, or buildability determination.
