@@ -1,0 +1,22 @@
+{
+  "source": "https://data.ca.gov/dataset/surplus-land-act-notices-of-availability-received",
+  "download": "https://publish.data.ca.gov/dataset/0a52a6d9-4c1f-4905-8d25-6117c60c35c8/resource/bb81599a-e130-48aa-a6e3-bbcce9392d4f/download/noa_information.csv",
+  "retrievedAt": "2026-11-07",
+  "sourceUpdatedAt": "2026-11-06",
+  "license": "Public domain; portal states no restrictions on public use.",
+  "attribution": "California HCD; notices self-reported by local public agencies, not independently verified by HCD.",
+  "scope": "Exact match to 34 incorporated Orange County city names. Unincorporated and ambiguous locations excluded. Coordinate envelope is a plausibility check, not a county-boundary or parcel validation.",
+  "statewideRows": 3112,
+  "ocRecords": 113,
+  "version": "5ef31ecf78fd",
+  "enrichment": {
+    "checkedAt": "2026-11-07",
+    "located": 80,
+    "unlocated": 33,
+    "densityYear": 2020,
+    "employmentYear": 2023,
+    "floodVintage": "2017 features / 2020 SCAG planning input",
+    "fireVintage": "2025 recommended LRA",
+    "flagged": 43
+  }
+}
